@@ -3,7 +3,7 @@ pipeline:
     image: appleboy/drone-ssh
     host: 103.109.37.179
     username: root
-    password: oujqflGLTRDV473
+    password: tuanhung0601
     port: 22
     script:
       - cd /usr/share/nginx/html/
