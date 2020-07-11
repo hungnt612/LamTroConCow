@@ -1,0 +1,11 @@
+pipeline:
+  ssh:
+    image: appleboy/drone-ssh
+    host: 103.109.37.179
+    username: root
+    password: oujqflGLTRDV473
+    port: 22
+    script:
+      - cd /usr/share/nginx/html/
+      - git pull origin master
+      - mkdir cainaylatest
