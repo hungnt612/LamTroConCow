@@ -9,3 +9,4 @@ pipeline:
       - cd /usr/share/nginx/html/
       - git pull origin master
       - mkdir cainaylatest
+       
